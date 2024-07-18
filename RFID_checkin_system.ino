@@ -1,7 +1,7 @@
 #include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-#include <MFRC522.h>
-#include <Servo.h>
+#include <LiquidCrystal_I2C.h> //library for i2c module
+#include <MFRC522.h> ////library for rfid sensor
+#include <Servo.h> //library for servo moter
 
 #define SS_PIN 10   // Slave Select pin for RFID reader
 #define RST_PIN 9   // Reset pin for RFID reader
