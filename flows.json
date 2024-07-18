@@ -1,0 +1,24 @@
+[
+    {
+        "id": "f787b7ae3bebe9cc",
+        "type": "mysql",
+        "z": "a4841dcb93e0e161",
+        "mydb": "2953b4ea26f71ddb",
+        "name": "",
+        "x": 760,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2953b4ea26f71ddb",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "checkin_system",
+        "tz": "",
+        "charset": "UTF8"
+    }
+]
