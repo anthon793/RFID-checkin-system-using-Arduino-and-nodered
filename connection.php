@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost','root', '', 'test')or die($conn->error);
+$conn = new mysqli('localhost','root', '', 'checkin_system')or die($conn->error);
 
 session_start();
 
