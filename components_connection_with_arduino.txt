@@ -1,0 +1,39 @@
+Wiring Information
+1) RFID MFRC522
+Pin	    Wiring to Arduino Uno
+SDA	    Digital 10
+SCK	    Digital 13
+MOSI	Digital 11
+MISO	Digital 12
+IRQ	    Unconnected
+GND	    GND
+RST	    Digital 9
+3.3V	3.3V
+Caution: You must power this device with 3.3V!
+
+2) I2C LCD Module
+Pin	Wiring to Arduino Uno
+GND	GND
+VCC	5V
+SDA	A4
+SCL	A5
+
+3) Servo Motor
+Pin	    Wiring to Arduino Uno
+GND	    GND
+VCC	    5V
+Signal	Digital 6
+
+4) Buzzer
+Pin	     Wiring to Arduino Uno
+GND	     GND
+VCC	     5V
+Signal	 Digital 5
+
+5) LEDs
+LED	                Wiring to Arduino Uno
+Green LED GND	    GND
+Green LED Signal	Digital 7
+Red LED GND	        GND
+Red LED Signal	    Digital 4
+
