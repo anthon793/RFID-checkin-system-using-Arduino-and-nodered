@@ -1,0 +1,8 @@
+Login details for the Checkin-system
+
+
+email: admintech@gmail.com
+password: adminpass
+
+
+
