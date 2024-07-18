@@ -14,7 +14,6 @@ if (isset($_SESSION['username'])) {
 		$useremail = $row['email'];
 		$userfirstname = $row['firstname'];
 		$userlastname = $row['lastname'];
-
 	}
 
 if (isset($_POST['update'])) {
@@ -49,7 +48,7 @@ else if (!password_verify($validated_data['currentpassword'] ,  $userpassword))
 	echo  "<center><font color='red'>Current password is wrong! </font></center>";
 }
 else if (empty($_POST['newpassword'])) {
-	$userfirstname = $validated_data['firstname'];
+      $userfirstname = $validated_data['firstname'];
       $userlastname = $validated_data['lastname'];
       $useremail = $validated_data['email'];
       $updatequery1 = "UPDATE users SET firstname = '$userfirstname' , lastname='$userlastname' , email='$useremail' WHERE id = '$userid' " ;
