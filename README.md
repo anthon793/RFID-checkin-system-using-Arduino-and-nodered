@@ -2,14 +2,14 @@ RFID Based Check-In system
 ===
 RFID Based Check-In System using Arduino, RFID MFRC522 Module and Node-Red.
 
-# Why did we decide to make it?
-Traditional check-in systems often rely on manual processes that are prone to errors and time-consuming. To overcome these challenges, we developed an RFID Based Checkin System using Arduino, RFID MFRC522 Module, and Node-RED. This system automates the check-in process using RFID cards issued to users.
+# Why was it built?
+Traditional check-in systems often rely on manual processes that are prone to errors and time-consuming. To overcome these challenges, we developed an RFID Based Check-In System using Arduino, RFID MFRC522 Module, and Node-RED. This system automates the check-in process using RFID cards issued to users.
 
 # What is RFID?
 RFID (Radio Frequency Identification) is a technology where digital data stored in RFID tags is captured by a reader via radio waves, facilitating quick and contactless identification.
 
 # What is Node-red
-
+Node-RED is an open-source programming tool for wiring together hardware devices, APIs, and online services in new and interesting ways. It provides a browser-based editor that allows users to create flows by simply dragging and dropping nodes, which represent different functionalities, and connecting them together to define the flow of data.
 
 
 # Components we used in the project
