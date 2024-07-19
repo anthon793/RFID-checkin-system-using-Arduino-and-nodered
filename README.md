@@ -1,4 +1,3 @@
-===
 RFID Based Check-In system
 ===
 RFID Based Check-In System using Arduino, RFID MFRC522 Module and Node-Red.
