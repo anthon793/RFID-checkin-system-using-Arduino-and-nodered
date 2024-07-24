@@ -1,6 +1,6 @@
 <?php
 include('connection.php');
-// include('pagination.php');
+
 if (isset($_POST['register'])) {
 require "gump.class.php";
 $gump = new GUMP();
