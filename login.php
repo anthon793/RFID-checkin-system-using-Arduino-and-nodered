@@ -41,7 +41,7 @@
         <div class="row">
           <div class="col-8">
             <p class="mb-0">
-            <a href="register.php" class="text-center">I don't have an account</a>
+            <a href="#" class="text-center">I don't have an account</a>
             </p>
           </div>
           <!-- /.col -->
